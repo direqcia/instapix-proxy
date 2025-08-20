@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/proxy.js": {
+      "runtime": "nodejs"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/proxy",
+      "dest": "/api/proxy.js"
+    }
+  ]
+}
